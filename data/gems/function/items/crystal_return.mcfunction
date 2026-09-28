@@ -1,0 +1,11 @@
+execute as @a[tag=has_diamond] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"diamond"}}}]}] if score @s player_health matches 1.. run function gems:give/diamond
+execute as @a[tag=has_emerald] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"emerald"}}}]}] if score @s player_health matches 1.. run function gems:give/emerald
+execute as @a[tag=has_amethyst] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"amethyst"}}}]}] if score @s player_health matches 1.. run function gems:give/amethyst
+execute as @a[tag=has_lapis] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"lapis"}}}]}] if score @s player_health matches 1.. run function gems:give/lapis
+execute as @a[tag=has_ruby] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"ruby"}}}]}] if score @s player_health matches 1.. run function gems:give/ruby
+execute as @a[tag=has_amber] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"amber"}}}]}] if score @s player_health matches 1.. run function gems:give/amber
+execute as @a[tag=has_quartz] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"quartz"}}}]}] if score @s player_health matches 1.. run function gems:give/quartz
+execute as @a[tag=has_prismarine] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"prismarine"}}}]}] if score @s player_health matches 1.. run function gems:give/prismarine
+execute as @a[tag=has_echo] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"echo_shard"}}}]}] if score @s player_health matches 1.. run function gems:give/echo
+execute as @a[tag=has_netherite] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"netherite"}}}]}] if score @s player_health matches 1.. run function gems:give/netherite
+execute as @a[tag=has_redstone] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gem:"redstone"}}}]}] if score @s player_health matches 1.. run function gems:give/redstone

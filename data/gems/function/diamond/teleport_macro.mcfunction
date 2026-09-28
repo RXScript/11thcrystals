@@ -1,0 +1,1 @@
+$tp @s $(temp_x) $(temp_y) $(temp_z)

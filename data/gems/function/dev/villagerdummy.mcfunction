@@ -1,0 +1,1 @@
+give @s villager_spawn_egg[custom_name=[{"text":"Test Dummy","italic":false}],entity_data={id:villager,VillagerData:{type:jungle,profession:nitwit,level:99},Health:1024,active_effects:[{id:slow_falling,duration:99999999,amplifier:255,ambient:1b,show_particles:1b}],attributes:[{id:movement_speed,base:0.1f},{id:max_health,base:1024f}]}] 1

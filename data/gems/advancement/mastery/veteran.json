@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:diamond_sword" },
+    "title": { "text": "Veteran", "color": "aqua","bold": true },
+    "description": { "text": "Feared by many. 30 kills/300 mastery points." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gems:mastery/warrior",
+  "criteria": {
+    "trigger": { "trigger": "minecraft:impossible" }
+  }
+}

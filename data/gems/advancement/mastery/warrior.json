@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": { "text": "Warrior", "color": "yellow","bold": true },
+    "description": { "text": "A proven fighter. 15 kills/150 mastery points." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gems:mastery/apprentice",
+  "criteria": {
+    "trigger": { "trigger": "minecraft:impossible" }
+  }
+}

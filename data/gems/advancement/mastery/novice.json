@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:wooden_sword" },
+    "title": { "text": "Novice", "color": "gray", "bold": true },
+    "description": { "text": "Your journey begins." },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "gems:mastery/root",
+  "criteria": {
+    "trigger": { "trigger": "minecraft:impossible" }
+  }
+}

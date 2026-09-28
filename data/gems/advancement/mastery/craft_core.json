@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            21
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "The Titan’s Core",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "A weight that crushes the unworthy.",
+      "color": "gold"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gems:mastery/craft_sigil",
+  "criteria": {
+    "crafted_core": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "gems:titans_core"
+      }
+    }
+  }
+}

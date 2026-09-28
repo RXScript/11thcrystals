@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N#",
+    "EoE",
+    "#N "
+  ],
+  "key": {
+    "#": "minecraft:gold_block",
+    "o": "minecraft:emerald_block",
+    "E": "minecraft:enchanted_golden_apple",
+    "N": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:heart_of_the_sea",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Totem of Fortitude",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:custom_model_data": {
+        "floats": [
+          2
+        ]
+      },
+      "minecraft:death_protection": {
+        "death_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 3,
+                "duration": 800
+              },
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 2,
+                "duration": 600
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 4,
+                "duration": 600
+              },
+              {
+                "id": "minecraft:fire_resistance",
+                "amplifier": 0,
+                "duration": 800
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 1
+    },
+    "count": 1
+  }
+}

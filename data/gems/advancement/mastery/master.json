@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:netherite_sword" },
+    "title": { "text": "Master", "color": "gold","bold": true },
+    "description": { "text": "Unmatched. 50 kills./500 mastery points." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gems:mastery/veteran",
+  "criteria": {
+    "trigger": { "trigger": "minecraft:impossible" }
+  }
+}

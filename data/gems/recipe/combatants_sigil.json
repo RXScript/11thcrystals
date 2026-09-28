@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ndn",
+    "dod",
+    "ndn"
+  ],
+  "key": {
+    "n": [
+      "minecraft:netherite_scrap"
+    ],
+    "d": [
+      "minecraft:diamond_block"
+    ],
+    "o": [
+      "minecraft:ominous_trial_key"
+    ]
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {
+      "minecraft:item_name": {
+        "text": "The Combatant’s Sigil",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "A crude, heavy token forged in the heat",
+          "color": "dark_purple"
+        },
+        {
+          "text": "of the Ominous Trials. It vibrates with",
+          "color": "dark_purple"
+        },
+        {
+          "text": "the faint echo of a single defeated",
+          "color": "dark_purple"
+        },
+        {
+          "text": "spirit. To use it is to claim a victory",
+          "color": "dark_purple"
+        },
+        {
+          "text": "you didn't have to bleed for—yet.",
+          "color": "dark_purple"
+        }
+      ],
+      "minecraft:custom_model_data": {
+        "floats": [
+          20
+        ]
+      },
+      "minecraft:custom_data": "{masteryitem:1}",
+      "minecraft:unbreakable": {},
+      "minecraft:enchantment_glint_override": true
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,1 @@
+give @s zombie_spawn_egg[custom_name=[{"text":"Dummy","italic":false}],lore=[[{"text":"Testing Dummy for abilities.","italic":false}]],entity_data={id:zombie,Health:2000,CanPickUpLoot:1b,Glowing:1b,equipment:{head:{id:leather_helmet,components:{unbreakable:{}}}},attributes:[{id:max_health,base:2000f}]}] 1

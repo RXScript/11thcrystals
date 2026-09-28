@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rdr",
+    "dnd",
+    "rdr"
+  ],
+  "key": {
+    "r": [
+      "minecraft:recovery_compass"
+    ],
+    "d": [
+      "minecraft:dragon_head"
+    ],
+    "n": [
+      "minecraft:nether_star"
+    ]
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {
+      "minecraft:item_name": {
+        "text": "The Eternal Sovereign",
+        "color": "dark_red"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [
+          22
+        ]
+      },
+      "minecraft:custom_data": "{masteryitem:3}",
+      "minecraft:unbreakable": {},
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:lore": [
+        {
+          "text": "The ultimate apex. This shard does not just",
+          "color": "dark_purple"
+        },
+        {
+          "text": "hold mastery; it commands it. Crafted from",
+          "color": "dark_purple"
+        },
+        {
+          "text": "the stars and the breath of the dragon, it",
+          "color": "dark_purple"
+        },
+        {
+          "text": "represents absolute dominance over the",
+          "color": "dark_purple"
+        },
+        {
+          "text": "battlefield. Only those who have reached the",
+          "color": "dark_purple"
+        },
+        {
+          "text": "end of all things can truly harness the power",
+          "color": "dark_purple"
+        },
+        {
+          "text": "within. The world trembles when it is consumed.",
+          "color": "dark_purple"
+        }
+      ]
+    },
+    "count": 1
+  }
+}

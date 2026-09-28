@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:stone_sword" },
+    "title": { "text": "Apprentice", "color": "white","bold": true },
+    "description": { "text": "You've drawn first blood. 5 kills/50 mastery points." },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gems:mastery/novice",
+  "criteria": {
+    "trigger": { "trigger": "minecraft:impossible" }
+  }
+}

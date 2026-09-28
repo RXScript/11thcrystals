@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    "oGo",
+    "## "
+  ],
+  "key": {
+    "#": "minecraft:gold_block",
+    "o": "minecraft:emerald_block",
+    "G": "minecraft:golden_apple"
+  },
+  "result": {
+    "id": "minecraft:totem_of_undying"
+  }
+}

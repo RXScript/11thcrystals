@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BNB",
+    "oSo",
+    "BNB"
+  ],
+  "key": {
+    "B": "minecraft:netherite_block",
+    "o": "minecraft:emerald_block",
+    "S": "minecraft:nether_star",
+    "N": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:heart_of_the_sea",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Totem of Transcendence",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:custom_model_data": {
+        "floats": [
+          1
+        ]
+      },
+      "minecraft:death_protection": {
+        "death_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 3,
+                "duration": 1200
+              },
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 4,
+                "duration": 600
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 4,
+                "duration": 600
+              },
+              {
+                "id": "minecraft:strength",
+                "amplifier": 4,
+                "duration": 600
+              },
+              {
+                "id": "minecraft:fire_resistance",
+                "amplifier": 0,
+                "duration": 800
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 1
+    },
+    "count": 1
+  }
+}

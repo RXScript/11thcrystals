@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            20
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "The Combatant’s Sigil",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Forged in the heat of the Ominous Trials.",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gems:mastery/root",
+  "criteria": {
+    "crafted_sigil": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "gems:combatants_sigil"
+      }
+    }
+  }
+}

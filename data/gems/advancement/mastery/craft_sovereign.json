@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            22
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "The Eternal Sovereign",
+      "color": "dark_red"
+    },
+    "description": {
+      "text": "Absolute dominance over the battlefield incarnate.",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gems:mastery/craft_core",
+  "criteria": {
+    "crafted_sovereign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "gems:eternal_sovereign"
+      }
+    }
+  }
+}
